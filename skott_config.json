@@ -1,0 +1,1011 @@
+{
+  "index.ts": {
+    "id": "index.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "config-loader.ts",
+      "monitor.ts",
+      "../sim/dex.ts",
+      "../sim/teams.ts",
+      "loginserver.ts",
+      "ladders.ts",
+      "chat.ts",
+      "users.ts",
+      "punishments.ts",
+      "rooms.ts",
+      "verifier.ts",
+      "tournaments/index.ts",
+      "ip-tools.ts",
+      "sockets.ts",
+      "team-validator-async.ts"
+    ],
+    "body": {
+      "size": 6269,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../lib/index.ts": {
+    "id": "../lib/index.ts",
+    "adjacentTo": [
+      "../lib/dashycode.ts",
+      "../lib/repl.ts",
+      "../lib/net.ts",
+      "../lib/streams.ts",
+      "../lib/fs.ts",
+      "../lib/utils.ts",
+      "../lib/crashlogger.ts",
+      "../lib/process-manager.ts",
+      "../lib/sql.ts",
+      "../lib/postgres.ts"
+    ],
+    "body": {
+      "size": 363,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../lib/dashycode.ts": {
+    "id": "../lib/dashycode.ts",
+    "adjacentTo": [],
+    "body": {
+      "size": 9298,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../lib/repl.ts": {
+    "id": "../lib/repl.ts",
+    "adjacentTo": [
+      "../lib/crashlogger.ts",
+      "../lib/fs.ts"
+    ],
+    "body": {
+      "size": 4366,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../lib/crashlogger.ts": {
+    "id": "../lib/crashlogger.ts",
+    "adjacentTo": [],
+    "body": {
+      "size": 2359,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../lib/fs.ts": {
+    "id": "../lib/fs.ts",
+    "adjacentTo": [
+      "../lib/streams.ts"
+    ],
+    "body": {
+      "size": 14520,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../lib/streams.ts": {
+    "id": "../lib/streams.ts",
+    "adjacentTo": [],
+    "body": {
+      "size": 25555,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../lib/net.ts": {
+    "id": "../lib/net.ts",
+    "adjacentTo": [
+      "../lib/streams.ts"
+    ],
+    "body": {
+      "size": 6673,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../lib/utils.ts": {
+    "id": "../lib/utils.ts",
+    "adjacentTo": [],
+    "body": {
+      "size": 13390,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../lib/process-manager.ts": {
+    "id": "../lib/process-manager.ts",
+    "adjacentTo": [
+      "../lib/streams.ts",
+      "../lib/fs.ts"
+    ],
+    "body": {
+      "size": 22710,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../lib/sql.ts": {
+    "id": "../lib/sql.ts",
+    "adjacentTo": [
+      "../lib/process-manager.ts",
+      "../lib/fs.ts"
+    ],
+    "body": {
+      "size": 13420,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../lib/postgres.ts": {
+    "id": "../lib/postgres.ts",
+    "adjacentTo": [
+      "../lib/streams.ts",
+      "../lib/fs.ts",
+      "../lib/utils.ts"
+    ],
+    "body": {
+      "size": 4009,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "config-loader.ts": {
+    "id": "config-loader.ts",
+    "adjacentTo": [
+      "../config/config-example.js",
+      "user-groups.ts",
+      "../lib/index.ts"
+    ],
+    "body": {
+      "size": 5245,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../config/config-example.js": {
+    "id": "../config/config-example.js",
+    "adjacentTo": [],
+    "body": {
+      "size": 23886,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "user-groups.ts": {
+    "id": "user-groups.ts",
+    "adjacentTo": [
+      "../lib/fs.ts",
+      "chat-commands/room-settings.ts",
+      "../sim/dex-data.ts"
+    ],
+    "body": {
+      "size": 15362,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "chat-commands/room-settings.ts": {
+    "id": "chat-commands/room-settings.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "user-groups.ts"
+    ],
+    "body": {
+      "size": 74373,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/dex-data.ts": {
+    "id": "../sim/dex-data.ts",
+    "adjacentTo": [
+      "../lib/index.ts"
+    ],
+    "body": {
+      "size": 11149,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "monitor.ts": {
+    "id": "monitor.ts",
+    "adjacentTo": [
+      "../lib/index.ts"
+    ],
+    "body": {
+      "size": 9993,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/dex.ts": {
+    "id": "../sim/dex.ts",
+    "adjacentTo": [
+      "../sim/dex-data.ts",
+      "../sim/dex-conditions.ts",
+      "../sim/dex-moves.ts",
+      "../sim/dex-items.ts",
+      "../sim/dex-abilities.ts",
+      "../sim/dex-species.ts",
+      "../sim/dex-formats.ts",
+      "../lib/index.ts"
+    ],
+    "body": {
+      "size": 18168,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/dex-conditions.ts": {
+    "id": "../sim/dex-conditions.ts",
+    "adjacentTo": [
+      "../sim/dex-data.ts",
+      "../sim/dex-moves.ts"
+    ],
+    "body": {
+      "size": 40087,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/dex-moves.ts": {
+    "id": "../sim/dex-moves.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "../sim/dex-data.ts"
+    ],
+    "body": {
+      "size": 23795,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/dex-items.ts": {
+    "id": "../sim/dex-items.ts",
+    "adjacentTo": [
+      "../sim/dex-conditions.ts",
+      "../sim/dex-data.ts"
+    ],
+    "body": {
+      "size": 6392,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/dex-abilities.ts": {
+    "id": "../sim/dex-abilities.ts",
+    "adjacentTo": [
+      "../sim/dex-conditions.ts",
+      "../sim/dex-data.ts"
+    ],
+    "body": {
+      "size": 3836,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/dex-species.ts": {
+    "id": "../sim/dex-species.ts",
+    "adjacentTo": [
+      "../sim/dex-data.ts"
+    ],
+    "body": {
+      "size": 25582,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/dex-formats.ts": {
+    "id": "../sim/dex-formats.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "../sim/dex-data.ts",
+      "../sim/dex-conditions.ts",
+      "../data/tags.ts"
+    ],
+    "body": {
+      "size": 37798,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../data/tags.ts": {
+    "id": "../data/tags.ts",
+    "adjacentTo": [],
+    "body": {
+      "size": 8837,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/teams.ts": {
+    "id": "../sim/teams.ts",
+    "adjacentTo": [
+      "../sim/dex.ts",
+      "../sim/prng.ts"
+    ],
+    "body": {
+      "size": 17974,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/prng.ts": {
+    "id": "../sim/prng.ts",
+    "adjacentTo": [],
+    "body": {
+      "size": 5866,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "loginserver.ts": {
+    "id": "loginserver.ts",
+    "adjacentTo": [
+      "../lib/index.ts"
+    ],
+    "body": {
+      "size": 5130,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "ladders.ts": {
+    "id": "ladders.ts",
+    "adjacentTo": [
+      "ladders-remote.ts",
+      "ladders-local.ts",
+      "room-battle.ts",
+      "ladders-challenges.ts"
+    ],
+    "body": {
+      "size": 16704,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "ladders-remote.ts": {
+    "id": "ladders-remote.ts",
+    "adjacentTo": [
+      "../lib/index.ts"
+    ],
+    "body": {
+      "size": 6087,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "ladders-local.ts": {
+    "id": "ladders-local.ts",
+    "adjacentTo": [
+      "../lib/index.ts"
+    ],
+    "body": {
+      "size": 10361,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "room-battle.ts": {
+    "id": "room-battle.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "../sim/battle-stream.ts",
+      "room-game.ts",
+      "tournaments/index.ts",
+      "rooms.ts",
+      "room-battle-bestof.ts",
+      "config-loader.ts",
+      "../sim/dex.ts"
+    ],
+    "body": {
+      "size": 45999,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/battle-stream.ts": {
+    "id": "../sim/battle-stream.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "../sim/teams.ts",
+      "../sim/battle.ts"
+    ],
+    "body": {
+      "size": 10896,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/battle.ts": {
+    "id": "../sim/battle.ts",
+    "adjacentTo": [
+      "../sim/dex.ts",
+      "../sim/teams.ts",
+      "../sim/field.ts",
+      "../sim/pokemon.ts",
+      "../sim/prng.ts",
+      "../sim/side.ts",
+      "../sim/state.ts",
+      "../sim/battle-queue.ts",
+      "../sim/battle-actions.ts",
+      "../lib/index.ts"
+    ],
+    "body": {
+      "size": 106950,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/field.ts": {
+    "id": "../sim/field.ts",
+    "adjacentTo": [
+      "../sim/state.ts",
+      "../sim/pokemon.ts",
+      "../sim/dex.ts"
+    ],
+    "body": {
+      "size": 7502,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/state.ts": {
+    "id": "../sim/state.ts",
+    "adjacentTo": [
+      "../sim/battle.ts",
+      "../sim/dex.ts",
+      "../sim/field.ts",
+      "../sim/pokemon.ts",
+      "../sim/prng.ts",
+      "../sim/side.ts"
+    ],
+    "body": {
+      "size": 18729,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/pokemon.ts": {
+    "id": "../sim/pokemon.ts",
+    "adjacentTo": [
+      "../sim/state.ts",
+      "../sim/dex.ts"
+    ],
+    "body": {
+      "size": 71140,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/side.ts": {
+    "id": "../sim/side.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "../sim/battle.ts",
+      "../sim/pokemon.ts",
+      "../sim/state.ts",
+      "../sim/dex.ts"
+    ],
+    "body": {
+      "size": 38758,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/battle-queue.ts": {
+    "id": "../sim/battle-queue.ts",
+    "adjacentTo": [
+      "../sim/battle.ts"
+    ],
+    "body": {
+      "size": 12024,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/battle-actions.ts": {
+    "id": "../sim/battle-actions.ts",
+    "adjacentTo": [
+      "../sim/dex.ts"
+    ],
+    "body": {
+      "size": 72156,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "room-game.ts": {
+    "id": "room-game.ts",
+    "adjacentTo": [],
+    "body": {
+      "size": 13036,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "tournaments/index.ts": {
+    "id": "tournaments/index.ts",
+    "adjacentTo": [
+      "tournaments/generator-elimination.ts",
+      "tournaments/generator-round-robin.ts",
+      "../lib/index.ts",
+      "../sim/prng.ts",
+      "room-battle-bestof.ts"
+    ],
+    "body": {
+      "size": 93680,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "tournaments/generator-elimination.ts": {
+    "id": "tournaments/generator-elimination.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "tournaments/index.ts"
+    ],
+    "body": {
+      "size": 13748,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "tournaments/generator-round-robin.ts": {
+    "id": "tournaments/generator-round-robin.ts",
+    "adjacentTo": [
+      "../lib/utils.ts",
+      "tournaments/index.ts"
+    ],
+    "body": {
+      "size": 5429,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "room-battle-bestof.ts": {
+    "id": "room-battle-bestof.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "room-game.ts",
+      "room-battle.ts",
+      "rooms.ts"
+    ],
+    "body": {
+      "size": 16946,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "rooms.ts": {
+    "id": "rooms.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "chat-commands/room-settings.ts",
+      "chat-plugins/scavengers.ts",
+      "chat-plugins/scavenger-games.ts",
+      "chat-plugins/repeats.ts",
+      "room-battle.ts",
+      "room-battle-bestof.ts",
+      "room-game.ts",
+      "room-minor-activity.ts",
+      "roomlogs.ts",
+      "user-groups.ts",
+      "modlog/index.ts",
+      "replays.ts",
+      "chat-plugins/announcements.ts",
+      "chat-plugins/poll.ts",
+      "chat-plugins/responder.ts",
+      "chat-plugins/room-events.ts",
+      "tournaments/index.ts"
+    ],
+    "body": {
+      "size": 72676,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "chat-plugins/scavengers.ts": {
+    "id": "chat-plugins/scavengers.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "chat-plugins/scavenger-games.ts",
+      "chat.ts"
+    ],
+    "body": {
+      "size": 102377,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "chat-plugins/scavenger-games.ts": {
+    "id": "chat-plugins/scavenger-games.ts",
+    "adjacentTo": [
+      "chat-plugins/scavengers.ts",
+      "../lib/index.ts"
+    ],
+    "body": {
+      "size": 34122,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "chat.ts": {
+    "id": "chat.ts",
+    "adjacentTo": [
+      "user-groups.ts",
+      "punishments.ts",
+      "modlog/index.ts",
+      "friends.ts",
+      "../lib/index.ts",
+      "artemis/index.ts",
+      "../sim/index.ts",
+      "private-messages/index.ts",
+      "chat-jsx.tsx",
+      "chat-formatter.ts",
+      "config-loader.ts"
+    ],
+    "body": {
+      "size": 101480,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "punishments.ts": {
+    "id": "punishments.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "ip-tools.ts"
+    ],
+    "body": {
+      "size": 71132,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "ip-tools.ts": {
+    "id": "ip-tools.ts",
+    "adjacentTo": [
+      "../lib/index.ts"
+    ],
+    "body": {
+      "size": 19693,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "modlog/index.ts": {
+    "id": "modlog/index.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "config-loader.ts"
+    ],
+    "body": {
+      "size": 15900,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "friends.ts": {
+    "id": "friends.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "config-loader.ts"
+    ],
+    "body": {
+      "size": 17040,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "artemis/index.ts": {
+    "id": "artemis/index.ts",
+    "adjacentTo": [
+      "artemis/local.ts",
+      "artemis/remote.ts"
+    ],
+    "body": {
+      "size": 260,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "artemis/local.ts": {
+    "id": "artemis/local.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "config-loader.ts",
+      "../sim/dex-data.ts"
+    ],
+    "body": {
+      "size": 5262,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "artemis/remote.ts": {
+    "id": "artemis/remote.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "config-loader.ts",
+      "../sim/dex-data.ts"
+    ],
+    "body": {
+      "size": 4726,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/index.ts": {
+    "id": "../sim/index.ts",
+    "adjacentTo": [
+      "../sim/battle.ts",
+      "../sim/battle-stream.ts",
+      "../sim/pokemon.ts",
+      "../sim/prng.ts",
+      "../sim/side.ts",
+      "../sim/dex.ts",
+      "../sim/teams.ts",
+      "../sim/team-validator.ts",
+      "../lib/index.ts"
+    ],
+    "body": {
+      "size": 611,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../sim/team-validator.ts": {
+    "id": "../sim/team-validator.ts",
+    "adjacentTo": [
+      "../sim/dex.ts",
+      "../lib/index.ts",
+      "../data/tags.ts",
+      "../sim/teams.ts",
+      "../sim/prng.ts"
+    ],
+    "body": {
+      "size": 105116,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "private-messages/index.ts": {
+    "id": "private-messages/index.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "config-loader.ts",
+      "user-groups.ts",
+      "private-messages/database.ts"
+    ],
+    "body": {
+      "size": 8915,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "private-messages/database.ts": {
+    "id": "private-messages/database.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "private-messages/index.ts"
+    ],
+    "body": {
+      "size": 3064,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "chat-jsx.tsx": {
+    "id": "chat-jsx.tsx",
+    "adjacentTo": [
+      "../lib/index.ts"
+    ],
+    "body": {
+      "size": 1594,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "chat-formatter.ts": {
+    "id": "chat-formatter.ts",
+    "adjacentTo": [],
+    "body": {
+      "size": 13861,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "chat-plugins/repeats.ts": {
+    "id": "chat-plugins/repeats.ts",
+    "adjacentTo": [
+      "chat-plugins/room-faqs.ts",
+      "rooms.ts"
+    ],
+    "body": {
+      "size": 11110,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "chat-plugins/room-faqs.ts": {
+    "id": "chat-plugins/room-faqs.ts",
+    "adjacentTo": [
+      "../lib/index.ts"
+    ],
+    "body": {
+      "size": 8974,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "room-minor-activity.ts": {
+    "id": "room-minor-activity.ts",
+    "adjacentTo": [
+      "chat-plugins/poll.ts"
+    ],
+    "body": {
+      "size": 3380,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "chat-plugins/poll.ts": {
+    "id": "chat-plugins/poll.ts",
+    "adjacentTo": [
+      "../lib/index.ts"
+    ],
+    "body": {
+      "size": 27376,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "roomlogs.ts": {
+    "id": "roomlogs.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "modlog/index.ts"
+    ],
+    "body": {
+      "size": 9625,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "replays.ts": {
+    "id": "replays.ts",
+    "adjacentTo": [
+      "../lib/database.ts"
+    ],
+    "body": {
+      "size": 7695,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "../lib/database.ts": {
+    "id": "../lib/database.ts",
+    "adjacentTo": [],
+    "body": {
+      "size": 14268,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "chat-plugins/announcements.ts": {
+    "id": "chat-plugins/announcements.ts",
+    "adjacentTo": [],
+    "body": {
+      "size": 7842,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "chat-plugins/responder.ts": {
+    "id": "chat-plugins/responder.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "chat-plugins/chatlog.ts",
+      "chat-plugins/room-faqs.ts"
+    ],
+    "body": {
+      "size": 19969,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "chat-plugins/chatlog.ts": {
+    "id": "chat-plugins/chatlog.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "config-loader.ts",
+      "../sim/dex.ts",
+      "chat.ts"
+    ],
+    "body": {
+      "size": 63703,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "chat-plugins/room-events.ts": {
+    "id": "chat-plugins/room-events.ts",
+    "adjacentTo": [
+      "../lib/index.ts"
+    ],
+    "body": {
+      "size": 24789,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "ladders-challenges.ts": {
+    "id": "ladders-challenges.ts",
+    "adjacentTo": [
+      "room-battle.ts"
+    ],
+    "body": {
+      "size": 8687,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "users.ts": {
+    "id": "users.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "user-groups.ts"
+    ],
+    "body": {
+      "size": 56206,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "verifier.ts": {
+    "id": "verifier.ts",
+    "adjacentTo": [
+      "../lib/process-manager.ts",
+      "config-loader.ts",
+      "../lib/repl.ts"
+    ],
+    "body": {
+      "size": 1285,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "sockets.ts": {
+    "id": "sockets.ts",
+    "adjacentTo": [
+      "../lib/index.ts",
+      "ip-tools.ts",
+      "../sim/battle.ts"
+    ],
+    "body": {
+      "size": 17753,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  },
+  "team-validator-async.ts": {
+    "id": "team-validator-async.ts",
+    "adjacentTo": [
+      "../sim/team-validator.ts",
+      "../lib/process-manager.ts",
+      "config-loader.ts",
+      "../sim/dex.ts",
+      "../sim/teams.ts",
+      "../lib/repl.ts"
+    ],
+    "body": {
+      "size": 2998,
+      "thirdPartyDependencies": [],
+      "builtinDependencies": []
+    }
+  }
+}
